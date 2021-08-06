@@ -7,7 +7,6 @@ import GridView from '../component/GridView'
 import ListView from '../component/ListView'
 import Header from '../component/Header'
 
-const useStyles = makeStyles({})
 const Products = () => {
   const [view, setView] = useState('grid')
   const [sort, setSort] = useState('')
@@ -20,7 +19,7 @@ const Products = () => {
             display='flex'
             justifyContent='flex-end'
             alignItems='center'
-            my={2}
+            mb={3}
           >
             <SwitchView view={view} setView={setView} />
             <Box p={1}></Box>

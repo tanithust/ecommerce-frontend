@@ -7,10 +7,11 @@ const useStyles = makeStyles({
   root: {
     height: '95%',
     border: '2px solid whitesmoke',
+    background: 'white',
     borderRadius: 10,
     color: 'rgb(134, 134, 134)',
     '&:hover': {
-      background: 'whitesmoke',
+      boxShadow: ' rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;',
     },
     '& a:link': {
       textDecoration: 'none',
@@ -38,11 +39,6 @@ const useStyles = makeStyles({
     '&:hover': {
       color: 'rgb(114, 80, 235)',
     },
-  },
-  desc: {
-    textOverflow: 'ellipsis',
-    overflow: 'hidden',
-    whiteSpace: 'nowrap',
   },
 })
 
